@@ -1,6 +1,6 @@
 # Task List
 
-## The project consists of a complete Full Stack application with the goal of assisting in the management of activities and tasks.
+## O projeto consiste em uma aplicação Full Stack completa com o objetivo de auxiliar no gerenciamento de atividades e tarefas.
 
 <br>
  <img align="center" src="backend/src/assets/img/1.jpeg" />
@@ -8,7 +8,7 @@
 <br>
 <br>
  
-# Technologies Used
+# Technologias usadas
 
 ## Backend
 
@@ -30,29 +30,29 @@
 
 <br>
 
-# How to Use
+# Como rodar
 
-### First, we need to clone or download this repository.
+### Primeiro, precisamos clonar ou baixar este repositório.
 
 ```bash
-#Command to clone the repository
+#Comando para clonar o repositório
 
-$ git clone https://github.com/manualdodev/todolist-fullstack.git
+$ git clone https://github.com/natalia807/ToDoList-Fullstack.git
 ```
 
-### After cloning the repository, it is necessary to create a MySQL database along with the necessary columns.
+### Após clonar o repositório, é necessário criar um banco de dados MySQL junto com as colunas necessárias.
 
 ```bash
-#Command to create a database in the MySQL terminal:
+#Comando para criar um banco de dados no terminal MySQL:
 
 $ CREATE DATABASE database_name;
 ```
 
-### Next, it is necessary to create the "tasks" table that will be used by the application.
+### A seguir é necessário criar a tabela de “tarefas” que será utilizada pela aplicação.
 
 
 ```bash
-#Command to create the table with its columns
+#Comando para criar a tabela com suas colunas
 
 $ CREATE TABLE tasks(
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -62,41 +62,35 @@ $ CREATE TABLE tasks(
 );
 ```
 
-### In the root of the project there will be a file named ".env.example" this file contains 5 fields that will have to be filled in a file named ".env", just create this file or rename the example file. After that, just fill in the fields with the data related to your database.
+### Na raiz do projeto existirá um arquivo chamado ".env.example" este arquivo contém 5 campos que deverão ser preenchidos em um arquivo chamado ".env", basta criar este arquivo ou renomear o arquivo de exemplo. Depois disso, basta preencher os campos com os dados referentes ao seu banco de dados.
 
 ```bash
-PORT= [Port the server will run on]
-MYSQL_HOST= [The host of your machine, by default is 'localhost']
-MYSQL_USER= [Your username, by default MySQL uses the 'root' user]
-MYSQL_PASSWORD= [The password you chose when installing MySQL]
-MYSQL_DB= [The name of the database created earlier.]
+PORT= [Porta em que o servidor será executado]
+MYSQL_HOST= [O host da sua máquina, por padrão é 'localhost']
+MYSQL_USER= [Seu nome de usuário, por padrão o MySQL usa o usuário 'root']
+MYSQL_PASSWORD= [A senha que você escolheu ao instalar o MySQL]
+MYSQL_DB= [O nome do banco de dados criado anteriormente.]
 ```
 
-### Before starting the application, we need to install the 'node_modules' and to do this, simply open a terminal in the "backend" folder (it is advisable to use the terminal of the editor/IDE).
+### Antes de iniciar a aplicação, precisamos instalar o 'node_modules' e para isso basta abrir um terminal na pasta "backend" (é aconselhável utilizar o terminal do editor/IDE).
 
 ```bash
-#Command to download the 'node_modules'
+#Comando para baixar o 'node_modules'
 
 $ npm install
 ```
 
-### Finally, just run the command to start the server (still inside the "backend" folder) and open the "index.html" file.
+### Por fim, basta executar o comando para iniciar o servidor (ainda dentro da pasta “backend”) e abrir o arquivo “index.html”
+
+.
 
 ```bash
-#Command to start the server.
+#Comando para iniciar o servidor.
 
 $ npm start
 ```
 
 <br>
-
-# Credits to
-
-### Manual do Dev
-
-- <a href="https://github.com/manualdodev"> GitHub
-- <a href="https://www.youtube.com/@ManualdoDev"> YouTube
-- <a href="https://youtube.com/playlist?list=PLdtmpu_1ITQJ1Y2-ZBbE7ROP6u1kU0J5l">Playlist for this Project
 
 
 
