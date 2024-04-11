@@ -8,7 +8,7 @@
 <br>
 <br>
  
-# Technologias usadas
+# Tecnologias usadas
 
 ## Backend
 
